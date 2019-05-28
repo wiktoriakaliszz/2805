@@ -1,0 +1,59 @@
+body {
+  padding: 50px;
+  font-family: arial
+}
+
+div steps {
+  padding: 10px;
+}
+
+p {
+  margin: 10%;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+h2, h3, h4 {
+  padding-top: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #dfe2e5;
+}
+
+table {
+  width: 400px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  text-align: left;
+  border: 1px solid #dfe2e5;
+  padding: 8px;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+#steps {
+  text-align: inherit;
+  margin-bottom: 20px 30px;
+}
+
+h1:after {
+  content: ' ';
+  display: block;
+  border: 1px solid #dfe2e5;
+}
+
+h2:after {
+  content: ' ';
+  display: block;
+  border: 1px solid #dfe2e5;
+}
+
+h4:after {
+  content: ' ';
+  display: block;
+  border: 1px solid #dfe2e5;
+}
